@@ -1,0 +1,57 @@
+.navbar-logo {
+    height: 100px;
+}
+
+body{
+    margin-left: 0.5in;
+    margin-right: 0.5in;
+    font-family: Georgia;
+}
+.navbar{
+    width: 100%;
+}
+
+.boxes {
+    height: 5rem;
+    width: 5rem;
+    border-radius: 100%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar-nav-text{
+    color :#cccccc;
+}
+
+.navbar-active{
+    color:#FFF;
+    text-shadow:1px 1px #c4c4c4;
+    font-size:18px;
+}
+
+.card{
+    background-color: #88001b;
+    color: #FFF;
+}
+
+.card-head{
+    color:#FFF;
+    text-shadow:2px 2px #000;
+}
+
+.parallax + p{
+    height: 100%;
+    margin: 0;
+    font-size: 16px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 400;
+    line-height: 1.8rem;
+}
+.pimg1{
+    background-image:url();
+}
+
+footer{
+    background-color: #88001b;
+}
