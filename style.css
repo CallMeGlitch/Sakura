@@ -7,9 +7,6 @@ body{
     margin-right: 0.5in;
     font-family: Georgia;
 }
-.navbar{
-    width: 100%;
-}
 
 .boxes {
     height: 5rem;
@@ -54,4 +51,5 @@ body{
 
 footer{
     background-color: #88001b;
+    color: #FFF;
 }
