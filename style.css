@@ -3,8 +3,7 @@
 }
 
 body{
-    margin-left: 0.5in;
-    margin-right: 0.5in;
+    
     font-family: Georgia;
 }
 
@@ -23,7 +22,7 @@ body{
 
 .navbar-active{
     color:#FFF;
-    text-shadow:1px 1px #c4c4c4;
+    text-shadow:3px 3px #5e0819;
     font-size:18px;
 }
 
@@ -53,3 +52,17 @@ footer{
     background-color: #88001b;
     color: #FFF;
 }
+
+.carousel-item{
+    width: inherit;
+    height:500px
+}
+
+.btn-outline-light{
+    box-shadow: 4px 4px #5e0819;
+}
+
+.footer-head{
+    text-shadow:2px 2px #5e0819;
+}
+
