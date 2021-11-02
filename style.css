@@ -3,7 +3,7 @@
 }
 
 body{
-    
+    background-color: #000;
     font-family: Georgia;
 }
 
@@ -31,10 +31,6 @@ body{
     color: #FFF;
 }
 
-.card-head{
-    color:#FFF;
-    text-shadow:2px 2px #000;
-}
 
 .parallax + p{
     height: 100%;
@@ -55,7 +51,7 @@ footer{
 
 .carousel-item{
     width: inherit;
-    height:500px
+    height:700px
 }
 
 .btn-outline-light{
@@ -63,6 +59,23 @@ footer{
 }
 
 .footer-head{
-    text-shadow:2px 2px #5e0819;
+    text-shadow:2px 2px #979595;
 }
 
+.parallax {
+    background-image: url(./img/image.jfif);
+    min-height: 500px;
+    background-attachment:fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+  .card-title{
+    text-shadow:3px 3px #38040f;
+    font-size: 35px;
+}
+
+.svg-background{
+    background-color: transparent;
+}
