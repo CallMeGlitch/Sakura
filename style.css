@@ -90,3 +90,7 @@ footer{
         opacity: 0;
     }
   }
+
+  .bevcards{
+      justify-content: center;
+  }
