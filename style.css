@@ -91,6 +91,6 @@ footer{
     }
   }
 
-  .bevcards{
-      justify-content: center;
-  }
+.bevdrop{
+    background-color: black;
+}
