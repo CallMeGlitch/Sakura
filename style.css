@@ -40,9 +40,6 @@ body{
     font-weight: 400;
     line-height: 1.8rem;
 }
-.pimg1{
-    background-image:url();
-}
 
 footer{
     background-color: #88001b;
@@ -63,8 +60,17 @@ footer{
 }
 
 .parallax {
-    background-image: url(./img/image.jfif);
+    background-image: url(./img/aaa.png);
     min-height: 500px;
+    background-attachment:fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.opara{
+    background-image: url(./img/aaa.png);
+    min-height: 350px;
     background-attachment:fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -80,10 +86,7 @@ footer{
     background-color: transparent;
 }
 
-.card-img-top{
-    width: 100%;
-    height: 100%;
-}
+
 
 @media only screen and (max-width: 1336px) {
     .svg-img{
@@ -91,6 +94,70 @@ footer{
     }
   }
 
-.bevdrop{
-    background-color: black;
+.accordion-item{
+    box-shadow: 4px 4px #5e0819;
+    color: #FFF;
+    background-color: transparent;
+}
+
+.accordion-button{
+    background-color: transparent;
+    color: #FFF;
+}
+
+.order-online-delivery{
+    color: #FFF;
+}
+
+.topmenu{
+    color: #FFF;
+}
+
+.about-things{
+    background-color:#FFF ;
+    color: #000;
+}
+
+.about-img{
+    width: 300px;
+    height: 300px;
+}
+
+.accordion-button:not(.collapsed) {
+    color: #000;
+    background-color: #FFF;
+}
+
+.accordion-button:focus {
+    z-index: 3;
+     border-color: #000; 
+    outline: 0;
+    box-shadow: 0 0 0 0.25rem rgb(0 0 0/ 25%); 
+}
+
+.drinks{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+
+.accordion-button:not(.collapsed)::after {
+    background-image: url(./img/arrow2.png);
+    transform: rotate(0deg); 
+}
+
+.accordion-button::after {
+    background-image: url(./img/arrow1.png);
+}
+
+.homecards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.accordian-text{
+    text-align: left;
 }
