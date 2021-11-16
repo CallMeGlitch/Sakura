@@ -1,3 +1,9 @@
+/*
+#88001b
+#5e0819
+*/
+
+
 .navbar-logo {
     height: 100px;
 }
@@ -60,7 +66,7 @@ footer{
 }
 
 .parallax {
-    background-image: url(./img/aaa.png);
+    background-image: url(./img/sushi3.png);
     min-height: 500px;
     background-attachment:fixed;
     background-position: center;
@@ -160,4 +166,18 @@ footer{
 
 .accordian-text{
     text-align: left;
+}
+
+.card-about-img{
+    width: fit-content;
+
+}
+
+.card-menu-special-class{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.row{
+    flex-wrap: wrap;
 }
