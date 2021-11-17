@@ -181,3 +181,7 @@ footer{
 .row{
     flex-wrap: wrap;
 }
+
+.jumbotron{
+    background-image: url(Bar-Sakura.png);
+}
