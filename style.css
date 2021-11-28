@@ -185,3 +185,70 @@ footer{
 .bar{
     max-width: 100%;
 }
+
+.message{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.contact-boxes{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.message{
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+form{
+    width: 90%;
+    max-width: 90%;
+}
+
+.input-group{
+    margin-bottom: 30px;
+    position: relative;
+    border-radius: 12px;
+}
+
+input, textarea{
+    width: 100%;
+    padding: 10px;
+    outline: 0;
+    border: 3px solid #88001b;
+    font-size: 15px;
+    background-color: #FFF;
+}
+
+label{
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    padding: 10px;
+    color: #88001b;
+    cursor: text;
+    transition: 0.2s;
+}
+
+.submit-contact{
+    padding: 10px 0;
+    color: #88001b;
+    outline: none;
+    border: 3px solid #88001b;
+    width: 100%;
+    background-color: #FFF;
+    cursor: pointer;
+}
+
+input:focus~label,
+input:valid~label,
+textarea:focus~label,
+textarea:valid~label{
+    top: -35px;
+    font-size: 14px;
+}
