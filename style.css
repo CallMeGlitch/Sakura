@@ -200,8 +200,10 @@ footer{
 }
 
 .message{
-    padding-top: 5px;
-    padding-bottom: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #FFF;
+    color: #88001b;
 }
 
 form{
@@ -222,6 +224,7 @@ input, textarea{
     border: 3px solid #88001b;
     font-size: 15px;
     background-color: #FFF;
+
 }
 
 label{
@@ -251,4 +254,12 @@ textarea:focus~label,
 textarea:valid~label{
     top: -35px;
     font-size: 14px;
+}
+
+.menu-card-online{
+    background-color: #88001b;
+}
+
+.menu-header{
+    background-image: Front-Sakura.png;
 }
