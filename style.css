@@ -63,7 +63,7 @@ footer{
 }
 
 .parallax {
-    background-image: url(./img/sushi3.png);
+    background-image: url(./img/5.png);
     min-height: 500px;
     background-attachment:fixed;
     background-position: center;
@@ -200,10 +200,7 @@ footer{
 }
 
 .message{
-    padding-top: 10px;
-    padding-bottom: 10px;
-    background-color: #FFF;
-    color: #88001b;
+    color: #FFF;
 }
 
 form{
@@ -221,10 +218,10 @@ input, textarea{
     width: 100%;
     padding: 10px;
     outline: 0;
-    border: 3px solid #88001b;
     font-size: 15px;
-    background-color: #FFF;
-
+    background-color: #000;
+    color:#FFF ;
+    box-shadow: 4px 4px #5e0819;
 }
 
 label{
@@ -233,19 +230,19 @@ label{
     left: 0;
     top: 0;
     padding: 10px;
-    color: #88001b;
+    color: #FFF;
     cursor: text;
     transition: 0.2s;
 }
 
 .submit-contact{
     padding: 10px 0;
-    color: #88001b;
+    color: #FFF;
     outline: none;
-    border: 3px solid #88001b;
     width: 100%;
-    background-color: #FFF;
+    background-color: #000;
     cursor: pointer;
+    box-shadow: 4px 4px #5e0819;
 }
 
 input:focus~label,
@@ -258,8 +255,25 @@ textarea:valid~label{
 
 .menu-card-online{
     background-color: #88001b;
+    border-radius: 12px;
 }
 
-.menu-header{
-    background-image: Front-Sakura.png;
+.parallax-1 {
+    background-image: url(./img/sushi8.jpg);
+    min-height: 500px;
+    background-attachment:fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
+
+.parallax-2 {
+    background-image: url(./img/sushi4.png);
+    min-height: 500px;
+    background-attachment:fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
