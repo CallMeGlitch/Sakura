@@ -1,60 +1,79 @@
-<h6 class="py-2">
-Vegetable
-$11.95
-<hr>
-</h6> 
-<h6 class="py-2">
-Chicken
-$15.95
-<hr>
-</h6> 
-<h6 class="py-2">
-Steak
-$20.95
-<hr>
-</h6> 
-<h6 class="py-2">
-Salmon
-$19.95
-<hr>
-</h6> 
-<h6 class="py-2">
-Shrimp
-$19.95
-<hr>
-</h6> 
-<h6 class="py-2">
-Scallop
-$21.95
-<hr>
-</h6> 
-<h6 class="py-2">
-Red Snapper
-$19.95
-<hr>
-</h6> 
-<h6 class="py-2">
-Tuna 
-$20.95
-<hr>
-</h6> 
-<h6 class="py-2">
-Steak & Chicken
-$21.95
-<hr>
-</h6> 
-<h6 class="py-2">
-Steak & Shrimp
-$22.95
-<hr>
-</h6> 
-<h6 class="py-2">
-Shrimp & Chicken
-$22.95
-<hr>
-</h6> 
-<h6 class="py-2">
-Steak, Shrimp & Chicken
-$25.95
-<hr>
-</h6>
+<section class="parallax-section">
+    <div class="parallax opara">1
+        <div class="topmenu text-center">
+            <h1>Order Online</h1>
+            <hr>
+        </div>
+
+        <br>
+        <section class="order-online-delivery">
+            <div class="container-fluid order-online-delivery">
+                <div class="row text-center justify-content-center">
+                    <div class="col-sm-3">
+                        <p>
+                            <h2>We Deliver</h2>
+                            <hr>
+                            <p>
+                                With this feature you can call us and tell us your order, and we will take it right
+                                to you!
+                            </p>
+                            <a href="Contact.html" class="btn btn-outline-light">
+                                Our Number
+                            </a>
+                        </p>
+                    </div>
+                    <br>
+                    <div class="col-md-4">
+                        <img src="./img/LOGO1.png " height="230 px">
+                    </div>
+                    <br>
+                    <div class="col-sm-3">
+                        <p>
+                            <h2>You Pick Up</h2>
+                            <hr>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="container-fluid order-online-delivery">
+                <div class="row text-center justify-content-center">
+                    <div class="col-sm-3 menu-card-online">
+                        <p>
+                            <h2>
+                                Delivery
+                            </h2>
+                            <hr>
+                            <p>
+                                Order from our online menu and have it delivered straight to your door!
+                            </p>
+                            <a href="Contact.html" class="btn btn-outline-light">
+                                Our Number
+                            </a>
+                        </p>
+                    </div>
+                    <br>
+                    <div class="col-sm-4">
+                        <img src="./img/LOGO1.png " height="230 px">
+                    </div>
+                    <br>
+                    <div class="col-sm-3 menu-card-online">
+                        <p>
+                            <h2>
+                                Order Online
+                            </h2>
+                            <hr>
+                            <p>
+                                Order Online from your home and pick up ready to go in our restaurant!
+                            </p>
+                            <a href="Order.html" class="btn btn-outline-light">
+                                Order Online
+                            </a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <br>
+
+    </div>
+</section>
