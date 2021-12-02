@@ -255,7 +255,7 @@ textarea:valid~label{
 
 .menu-card-online{
     background-color: #88001b;
-    border-radius: 12px;
+    border-radius: 20px;
 }
 
 .parallax-1 {
@@ -293,4 +293,14 @@ textarea:valid~label{
 
 .text-para-1{
     border-radius: 12px;
+}
+
+.card{
+    border-radius: 20px;
+}
+
+.carousel-text{
+    justify-content: center;
+    align-items: center;
+    position: absolute;
 }
