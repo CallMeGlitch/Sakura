@@ -302,6 +302,27 @@ textarea:valid~label{
     opacity: 1;
 }
 
+.b3t{
+    position: fixed;
+    bottom: 50%;
+    right: 10px;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    background-color: #FFF;
+    color: #88001b;
+    font-size: 32px;
+    border: none;
+    outline: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    transition: all .4s;
+    pointer-events: none;
+    opacity: 1;
+}
+
 .text-para-1{
     border-radius: 12px;
 }
@@ -310,8 +331,6 @@ textarea:valid~label{
     border-radius: 20px;
 }
 
-.carousel-text{
-    justify-content: center;
-    align-items: center;
-    position: absolute;
+.carousel-overlay-img{
+    size: 100px;
 }
