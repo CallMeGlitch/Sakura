@@ -1,7 +1,9 @@
-window.onscroll = function() {
-    scrollFunction
-}
+const toTop = document.querySelector(".b2t");
 
-function scrollFunction() {
-
-}
+window.addEventListener("scroll", () => {
+    if (window.pageYOffset > 100) {
+        toTop.classList.add("active");
+    } else {
+        toTop.classList.remove("active");
+    }
+})
