@@ -8,7 +8,7 @@
     height: 100px;
 }
 
-body{
+body {
     background-color: #000;
     font-family: Georgia;
 }
@@ -22,23 +22,23 @@ body{
     justify-content: center;
 }
 
-.navbar-nav-text{
-    color :#cccccc;
+.navbar-nav-text {
+    color: #cccccc;
 }
 
-.navbar-active{
-    color:#FFF;
-    text-shadow:3px 3px #5e0819;
-    font-size:18px;
+.navbar-active {
+    color: #FFF;
+    text-shadow: 3px 3px 0.125rem #5e0819;
+    font-size: 18px;
 }
 
-.card{
+.card {
     background-color: #88001b;
     color: #FFF;
 }
 
 
-.parallax + p{
+.parallax+p {
     height: 100%;
     margin: 0;
     font-size: 16px;
@@ -47,81 +47,72 @@ body{
     line-height: 1.8rem;
 }
 
-footer{
+footer {
     background-color: #88001b;
     color: #FFF;
 }
 
 
 
-.btn-outline-light{
-    box-shadow: 4px 4px #5e0819;
+.btn-outline-light {
+    box-shadow: 4px 4px 0.125rem #5e0819;
 }
 
-.footer-head{
-    text-shadow:2px 2px #979595;
+.footer-head {
+    text-shadow: 2px 2px 0.125rem #979595;
 }
 
 .parallax {
-    background-image: url(./img/5.png);
+    background-image: url(./img/ramen.png);
     min-height: 500px;
-    background-attachment:fixed;
+    background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-.opara{
-    background-image: url(./img/aaa.png);
-    min-height: 350px;
-    background-attachment:fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-  .card-title{
-    text-shadow:3px 3px #38040f;
+.card-title {
+    text-shadow: 3px 3px 0.125rem #38040f;
     font-size: 35px;
 }
 
-.svg-background{
+.svg-background {
     background-color: transparent;
 }
 
 
 
 @media only screen and (max-width: 1336px) {
-    .svg-img{
+    .svg-img {
         opacity: 0;
     }
-  }
+}
 
-.accordion-item{
-    box-shadow: 4px 4px #5e0819;
+.accordion-item {
+    box-shadow: 4px 4px 0.125rem #5e0819;
     color: #FFF;
     background-color: transparent;
 }
 
-.accordion-button{
+.accordion-button {
     background-color: transparent;
     color: #FFF;
 }
 
-.order-online-delivery{
+.order-online-delivery {
     color: #FFF;
 }
 
-.topmenu{
+.topmenu {
     color: #FFF;
 }
 
-.about-things{
-    background-color:#FFF ;
+.about-things {
+    background-color: #FFF;
     color: #000;
 }
 
-.about-img{
+.about-img {
     width: 300px;
     height: 300px;
 }
@@ -133,98 +124,95 @@ footer{
 
 .accordion-button:focus {
     z-index: 3;
-     border-color: #000; 
+    border-color: #000;
     outline: 0;
-    box-shadow: 0 0 0 0.25rem rgb(0 0 0/ 25%); 
+    box-shadow: 0 0 0 0.25rem rgb(0 0 0/ 25%);
 }
 
-.drinks{
+.drinks {
     display: flex;
     justify-content: center;
     flex-direction: column;
     flex-wrap: wrap;
-  }
+}
 
 .accordion-button:not(.collapsed)::after {
     background-image: url(./img/arrow2.png);
-    transform: rotate(0deg); 
 }
 
 .accordion-button::after {
     background-image: url(./img/arrow1.png);
 }
 
-.homecards{
+.homecards {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     flex-wrap: wrap;
 }
 
-.accordian-text{
+.accordian-text {
     text-align: left;
 }
 
-.card-about-img{
+.card-about-img {
     width: fit-content;
 
 }
 
-.card-menu-special-class{
+.card-menu-special-class {
     margin-top: 1rem;
     margin-bottom: 1rem;
 }
 
-.row{
+.row {
     flex-wrap: wrap;
 }
 
-/* .content-center{
-    max-width: max-content;
-} */
-.bar{
+.bar {
     max-width: 100%;
 }
 
-.message{
+.message {
     margin: 0%;
     padding: 0%;
     box-sizing: border-box;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-.contact-boxes{
+.contact-boxes {
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.message{
+.message {
     color: #FFF;
 }
 
-form{
+form {
     width: 90%;
     max-width: 90%;
 }
 
-.input-group{
+.input-group {
     margin-bottom: 30px;
     position: relative;
     border-radius: 12px;
 }
 
-input, textarea{
+input,
+textarea {
     width: 100%;
     padding: 10px;
     outline: 0;
     font-size: 15px;
     background-color: #000;
-    color:#FFF ;
-    box-shadow: 4px 4px #5e0819;
+    color: #FFF;
+    box-shadow: 4px 4px 0.125rem #5e0819;
 }
 
-label{
+label {
     height: 100%;
     position: absolute;
     left: 0;
@@ -235,25 +223,25 @@ label{
     transition: 0.2s;
 }
 
-.submit-contact{
+.submit-contact {
     padding: 10px 0;
     color: #FFF;
     outline: none;
     width: 100%;
     background-color: #000;
     cursor: pointer;
-    box-shadow: 4px 4px #5e0819;
+    box-shadow: 4px 4px 0.125rem #5e0819;
 }
 
 input:focus~label,
 input:valid~label,
 textarea:focus~label,
-textarea:valid~label{
+textarea:valid~label {
     top: -35px;
     font-size: 14px;
 }
 
-.menu-card-online{
+.menu-card-online {
     background-color: #88001b;
     border-radius: 20px;
 }
@@ -261,7 +249,7 @@ textarea:valid~label{
 .parallax-1 {
     background-image: url(./img/sushi8.jpg);
     min-height: 500px;
-    background-attachment:fixed;
+    background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -270,13 +258,13 @@ textarea:valid~label{
 .parallax-2 {
     background-image: url(./img/sushi4.png);
     min-height: 500px;
-    background-attachment:fixed;
+    background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-.b2t{
+.b2t {
     position: fixed;
     bottom: 10px;
     right: 10px;
@@ -297,12 +285,12 @@ textarea:valid~label{
     opacity: 0;
 }
 
-.b2t.active{
+.b2t.active {
     pointer-events: auto;
     opacity: 1;
 }
 
-.b3t{
+.b3t {
     position: fixed;
     bottom: 50%;
     right: 10px;
@@ -323,14 +311,34 @@ textarea:valid~label{
     opacity: 1;
 }
 
-.text-para-1{
+.text-para-1 {
     border-radius: 12px;
 }
 
-.card{
+.card {
     border-radius: 20px;
 }
 
-.carousel-overlay-img{
-    size: 100px;
+.btn-carousel {
+    background-color: #88001b;
+    outline: none;
+    color: #FFF;
+}
+
+.about-reviews {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.review-name {
+    text-shadow: 2px 2px 0.125rem #979595;
+}
+
+.about-review-stars {
+    color: #FFD700;
+}
+.carousel-text{
+    text-shadow: 2px 2px 0.125rem #000;
 }
