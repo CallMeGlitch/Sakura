@@ -339,6 +339,11 @@ textarea:valid~label {
 .about-review-stars {
     color: #FFD700;
 }
+
 .carousel-text{
     text-shadow: 2px 2px 0.125rem #000;
+}
+
+.home-text-section + img{
+    height400px;
 }
