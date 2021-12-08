@@ -1,4 +1,5 @@
-{"name":"", "id": 1, count: 1},
+let items_array = [
+    {"name":"", "id": 1, count: 1},
 {"name":"", "id": 2, count: 1},
 {"name":"", "id": 3, count: 1},
 {"name":"", "id": 4, count: 1},
@@ -217,3 +218,4 @@
 {"name":"", "id": 217, count: 1},
 {"name":"", "id": 218, count: 1},
 {"name":"", "id": 219, count: 1},
+]

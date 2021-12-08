@@ -1,1 +1,1 @@
-This is a website made to enter the DevCatalyst competition
+<h1>Sakura Japanese Restaurant</h1>

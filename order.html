@@ -50,27 +50,27 @@
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="Order.html">
+                            <a class="nav-link" href="order.html">
                                 <h6 class="navbar-nav-text navbar-active">Order</h6>
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="Menu.html">
+                            <a class="nav-link" href="menu.html">
                                 <h6 class="navbar-nav-text">Menu</h6>
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="Contact.html">
+                            <a class="nav-link" href="contact.html">
                                 <h6 class="navbar-nav-text">Contact</h6>
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="About.html">
+                            <a class="nav-link" href="about.html">
                                 <h6 class="navbar-nav-text">About</h6>
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="Reservations.html">
+                            <a class="nav-link" href="reservations.html">
                                 <h6 class="navbar-nav-text">Reservations</h6>
                             </a>
                         </li>
@@ -132,8 +132,8 @@
                                     <p class="text-center">
                                         Order Online from your home and pick up ready to go in our restaurant!
                                     </p>
-                                    <a href="Order.html" class="btn btn-outline-light">
-                                        Order Online
+                                    <a href="about.html" class="btn btn-outline-light">
+                                        Our Location
                                     </a>
                                 </p>
                             </div>
@@ -2614,22 +2614,27 @@
                 </div>
             </div>
     </section>
+    <button class="btn cart-button btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
+        <i class="fas fa-cart-plus"></i>
+              </button>
     <section class="offcanvas">
         <div class="container-fluid">
-            <a class="btn btn-primary" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">
-                Link with href
-              </a>
-              <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
-                Button with data-bs-target
-              </button>
-              
               <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
                 <div class="offcanvas-header">
                   <h5 class="offcanvas-title" id="offcanvasExampleLabel">Offcanvas</h5>
                   <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                 </div>
                 <div class="offcanvas-body">
-                    
+                    <div id="wrapper">
+                        <div id="container">
+                            <h1>Your Items</h1>
+                            <div id="items"></div>
+                        </div>
+                        <div id="container">
+                            <h1>Cart</h1>
+                            #cart
+                        </div>
+                    </div>
                 </div>
               </div>
         </div>

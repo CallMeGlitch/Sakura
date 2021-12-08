@@ -53,7 +53,6 @@ footer {
 }
 
 
-
 .btn-outline-light {
     box-shadow: 4px 4px 0.125rem #5e0819;
 }
@@ -74,18 +73,6 @@ footer {
 .card-title {
     text-shadow: 3px 3px 0.125rem #38040f;
     font-size: 35px;
-}
-
-.svg-background {
-    background-color: transparent;
-}
-
-
-
-@media only screen and (max-width: 1336px) {
-    .svg-img {
-        opacity: 0;
-    }
 }
 
 .accordion-item {
@@ -290,27 +277,6 @@ textarea:valid~label {
     opacity: 1;
 }
 
-.b3t {
-    position: fixed;
-    bottom: 50%;
-    right: 10px;
-    border-radius: 50%;
-    width: 50px;
-    height: 50px;
-    background-color: #FFF;
-    color: #88001b;
-    font-size: 32px;
-    border: none;
-    outline: none;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-decoration: none;
-    transition: all .4s;
-    pointer-events: none;
-    opacity: 1;
-}
-
 .text-para-1 {
     border-radius: 12px;
 }
@@ -344,6 +310,45 @@ textarea:valid~label {
     text-shadow: 2px 2px 0.125rem #000;
 }
 
-.home-text-section + img{
+.cart-button{
+    
+    position: fixed;
+    bottom: 50%;
+    right: 10px;
+    border-radius: 12px;
+    width: 50px;
+    height: 50px;
+    background-color: #FFF;
+    color: #88001b;
+    font-size: 32px;
+    border: none;
+    outline: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    transition: all .4s;
+    pointer-events: none;
+}
+
+.home-text-section{
     height: 400px;
+    width: 700px;
+    align-content: center;
+    justify-content: center;
+}
+
+@media only screen and (max-width: 1336px) {
+    .svg-img {
+        opacity: 0;
+    }
+}
+
+.footer-section{
+    background-color: transparent;
+}
+
+.about-top-img{
+    height: 100%;
+    width: 100%;
 }
