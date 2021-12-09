@@ -1458,4 +1458,14 @@ let items_array = [{
         "id": 292,
         count: 1
     },
-]
+];
+let cart = [];
+
+function appendNode(parent, element) {
+    parent.appendchild(element);
+};
+
+function getDiv(container) {
+    return document.createElement(node);
+    return element;
+};

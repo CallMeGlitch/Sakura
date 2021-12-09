@@ -348,7 +348,20 @@ textarea:valid~label {
     background-color: transparent;
 }
 
-.about-top-img{
-    height: 100%;
+.about-top{
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+}
+
+.about-header{
+    text-shadow: 3px 3px 0.125rem #38040f;
+    font-size: 35px;
+    color: #FFF;
+}
+
+.about-owner-img{
     width: 100%;
+    height: auto;
+    vertical-align: middle;
 }
