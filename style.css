@@ -251,6 +251,15 @@ textarea:valid~label {
     background-size: cover;
 }
 
+.parallax-3 {
+    background-image: url(./img/sushi13.jpg);
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 .b2t {
     position: fixed;
     bottom: 10px;
@@ -350,6 +359,9 @@ textarea:valid~label {
     align-content: center;
     text-align: center;
     display: flex;
+    padding: 5px;
+    color: #FFF;
+    background-image: url(./img/sushi12.jpg);
 }
 
 .about-header{
@@ -358,12 +370,16 @@ textarea:valid~label {
     color: #FFF;
 }
 
-.about-owner-img{
-    width: 100%;
-    height: auto;
-    vertical-align: middle;
+.about-important{
+    color: #FFF;
 }
 
+.about-owner-img{  
+    width: 100%;
+    height: auto;
+    background-size: contain;
+    align-items: center;
+}
 
 #wrapper {
     display: flex;
