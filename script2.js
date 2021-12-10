@@ -1538,3 +1538,5 @@ function addOrRemoveItemsFromCart(action) {
 
 addOrRemoveItemsFromCart('add');
 addOrRemoveItemsFromCart('remove');
+
+

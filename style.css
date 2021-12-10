@@ -252,10 +252,19 @@ textarea:valid~label {
 }
 
 .parallax-3 {
-    background-image: url(./img/sushi13.jpg);
+    background-image: url(./img/sushi13-2.jpg);
     min-height: 500px;
     background-attachment: fixed;
-    background-position: center;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax-4 {
+    background-image: url(./img/sushi13-2.jpg);
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: top;
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -361,7 +370,7 @@ textarea:valid~label {
     display: flex;
     padding: 5px;
     color: #FFF;
-    background-image: url(./img/sushi12.jpg);
+    
 }
 
 .about-header{
@@ -417,4 +426,12 @@ textarea:valid~label {
 
 #container {
     margin: 50px;
+}
+
+.card-something {
+    text-shadow: 3px 3px 0.125rem #38040f;
+}
+
+.text-reservation-top{
+    color: #FFF;
 }
