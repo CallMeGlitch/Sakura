@@ -12,13 +12,6 @@
     <meta name="author" content="Andrew Ellis, Johnny Martinez">
     <meta name="keywords" content="food, restaurant, japanese, hibachi, sakura, lunch, dinner">
     <link rel="shortcut icon" href="./img/LOGO1.png">
-    <!--Please dont touch-->
-
-    <!--
-      select all instances 
-      "change-later" 
-    -->
-    <!--check for container-fluids!-->
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
@@ -30,6 +23,9 @@
 </head>
 
 <body>
+
+    <!--Navbar-->
+
     <section class="navbar-section" id="top">
         <nav class="navbar fixed-top navbar-expand-sm  navbar-light " style="background-color:#88001b;">
             <div class="container-fluid">
@@ -85,6 +81,9 @@
     <br>
     <br>
     <br>
+
+    <!--Section that contains top text and parallax-4 with 3 cards that are within it-->
+
     <section>
         <div class="container-fluid">
             <div class="topmenu text-center">
@@ -93,7 +92,7 @@
                         <h1 class="card-title">Reservations</h1>
                         <hr>
                         <p>
-
+                            Call or send us a Message in order to make a reservation!
                         </p>
                         <p>
 
@@ -118,13 +117,14 @@
                             <div class="card">
                                 <div class="card-body">
                                     <p>
-                                        <h5 class="card-title">
-                                            Special Services
-                                        </h5>
-                                        <hr>
-                                        <p class="card-text">
-                                            In the process of making a reservation, you can ask for us to do something special. Such as singing happy birthday or doing a surprise!
-                                        </p>
+                                    <h5 class="card-title">
+                                        Special Services
+                                    </h5>
+                                    <hr>
+                                    <p class="card-text">
+                                        In the process of making a reservation, you can ask for us to do something
+                                        special. Such as singing happy birthday or doing a surprise!
+                                    </p>
                                     </p>
                                 </div>
                             </div>
@@ -133,14 +133,14 @@
                             <div class="card">
                                 <div class="card-body">
                                     <p>
-                                        <h5 class="card-title">
-                                            Need A Reservation?
-                                        </h5>
-                                        <hr>
-                                        <p class="card-text">
-                                            Here at Sakura, you can reserve for anything. You can reserve for birthday
-                                            parties, weddings, family reunions and more!
-                                        </p>
+                                    <h5 class="card-title">
+                                        Need A Reservation?
+                                    </h5>
+                                    <hr>
+                                    <p class="card-text">
+                                        Here at Sakura, you can reserve for anything. You can reserve for birthday
+                                        parties, weddings, family reunions and more!
+                                    </p>
                                     </p>
                                 </div>
                             </div>
@@ -149,13 +149,14 @@
                             <div class="card">
                                 <div class="card-body">
                                     <p>
-                                        <h5 class="card-title">
-                                            Catering
-                                        </h5>
-                                        <hr>
-                                        <p class="card-text">
-                                            When you set up a reservation, you can order your food beforehand so when you get here all your food is ready to go!
-                                        </p>
+                                    <h5 class="card-title">
+                                        Catering
+                                    </h5>
+                                    <hr>
+                                    <p class="card-text">
+                                        When you set up a reservation, you can order your food beforehand so when you
+                                        get here all your food is ready to go!
+                                    </p>
                                     </p>
                                 </div>
                             </div>
@@ -163,23 +164,119 @@
                     </div>
                 </div>
             </div>
-            
+
         </div>
     </section>
 
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-        <path fill="#000000" fill-opacity="1"
-            d="M0,224L48,224C96,224,192,224,288,197.3C384,171,480,117,576,128C672,139,768,213,864,208C960,203,1056,117,1152,90.7C1248,64,1344,96,1392,112L1440,128L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z">
-        </path>
-    </svg>
+    <br>
+    <br>
+
+    <!--Card that tells the user about reservation instructions-->
+
+    <section class="text-center">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="card">
+                        <div class="card-body">
+                            <p>
+                            <h5 class="card-title">
+                                Set up a Reservation by filling the form below!
+                            </h5>
+                            <hr>
+                            <p>
+                                Or call this number: (731) 664-2878
+                            </p>
+                            <hr>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <br>
+    <br>
+
+    <!--Contains the reservation form-->
+
+    <section>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-2">
+
+                </div>
+                <div class="col-md-8">
+                    <div class="card">
+                        <div class="card-body">
+                            <p>
+                                <div class="message">
+                                    <div class="container-fluid">
+                                        <div class="row">
+                                            <div class="contact-boxes">
+                                                <form>
+                                                    <div class="input-group">
+                                                        <input type="text" id="name" required>
+                                                        <label for="name">Your Name</label>
+                                                    </div>
+                                                    <div class="input-group">
+                                                        <input type="text" id="number" required>
+                                                        <label for="number">Phone No.</label>
+                                                    </div>
+                                                    <div class="input-group">
+                                                        <input type="email" id="email" required>
+                                                        <label for="email">Email</label>
+                                                    </div>
+                                                    <div class="input-group">
+                                                        <input type="name" id="name" required>
+                                                        <label for="name">Event Title</label>
+                                                    </div>
+                                                    <div class="input-group">
+                                                        <input type="date" id="date" required>
+                                                        <label for="date">Event Date</label>
+                                                    </div>
+                                                    <div class="input-group">
+                                                        <input type="number" id="number" required>
+                                                        <label for="number">Number of Guests</label>
+                                                    </div>
+                                                    <div class="input-group">
+                                                        <input type="text" id="text" required>
+                                                        <label for="text">Special Needs</label>
+                                                    </div>
+                                                    <div class="input-group">
+                                                        <textarea id="message" rows="8" required></textarea>
+                                                        <label for="message">Comment</label>
+                                                    </div>
+                                                    <button type="submit" class="submit-contact">SUBMIT</button>
+                                                </form>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </p>
+                        </div>
+                    </div>        
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-2">
+
+        </div>
+        </div>
+        </div>
+    </section>
+
+    
     </div>
     </div>
     </section>
 
     <br>
     <br>
-    <br>
 
+    <!--Contains the Google Map of the restaurant location-->
 
     <section class="google-maps">
         <div class="container-fluid">
@@ -193,14 +290,19 @@
 
     </section>
 
+    <!--Back to top button-->
+
     <a href="#" class="b2t mx-auto"><i class="fas fa-chevron-up"></i></a>
 
+    <!--Svg/waves-->
 
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
         <path fill="#88001b" fill-opacity="1"
             d="M0,224L48,202.7C96,181,192,139,288,138.7C384,139,480,181,576,181.3C672,181,768,139,864,128C960,117,1056,139,1152,165.3C1248,192,1344,224,1392,240L1440,256L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z">
         </path>
     </svg>
+
+    <!--Footer-->
 
     <section class="footer-section">
 
@@ -253,7 +355,7 @@
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
-    </script>
+        </script>
 </body>
 
 </html>
